@@ -1,0 +1,32 @@
+body{
+    background-color:black;
+    
+}
+
+h1{
+    text-align: center;
+    color: red;
+    text-shadow: 2px 2px white;
+    font-style:italic;
+}
+
+h4{
+    color:yellowgreen ;
+    text-decoration: underline;
+}
+
+p{
+    color: white;
+}
+
+pre{
+    color:aqua;
+}
+
+.Q{
+   color: thistle;
+   text-decoration: underline;
+}
+hr{
+    color: red;
+}

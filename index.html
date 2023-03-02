@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS HANDSON 1</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+        <h1> JAVASCRIPT Q&A (OPERATORS & EXPRESSIONS)</h1>
+
+    <h4><span class="Q">Q1.</span> Add two Numbers</h4>
+    <p> - You are provided with two numbers A and B. Your task is to add this two numbers.</p>
+    <h4>Input Format</h4>
+    <p> - The first line contains two integers A and B</p>
+    <h4>Output Format</h4>
+    <p> - return the result after adding two numbers</p>
+    <pre> → Ans  const AddTwoNumbers = (a,b) => {
+        return a+b;
+          
+      };</pre>
+    <hr>
+
+    <h4><span class="Q">Q2.</span> Find if the conditions are obeyed or not</h4>
+    <p> - You are given two number first as A and second as B and check if both conditions (A<10 and A>B) a
+          re satisfied or not with the help of operators.</p>
+    <h4>Input Format</h4>
+    <p> - The first line contains two integers A and B</p>
+    <h4>Output Format</h4>
+    <p> - Return the result as true if the given condition gets satisfied,else false.</p>
+    <pre> → Ans const Is_Valid = (a,b) => {
+        return(a<10) && (a>b)
+      };</pre>
+    <hr>
+
+
+    <h4><span class="Q">Q3.</span> Check the conditions</h4>
+    <p> - You are given two numbers A and B.You need to do the following checks:
+        1.if both are divisible by 10 console true.<br>
+        2.if both are not divisible by 10 console false.<br>
+        3.if one of them only is divisible by 10 console true.<br>
+        Use operator to do this.</p>
+    <h4>Input Format</h4>
+    <p> - The first line contains two natural numbers A and B.</p>
+    <h4>Output Format</h4>
+    <p> - Return the required result.</p>
+    <pre> → Ans  const Check = (A, B) => 
+        {
+            return(A%10===0) || (B%10===0);
+        }; </pre>
+    <hr>
+
+
+
+    <h4><span class="Q">Q4.</span> Find the first digit of a 4 digit number</h4>
+    <p> - You are provided a four digit number N only.Your task is to print out the first digit of that number.</p>
+    <h4>Input Format</h4>
+    <p> - The first line contains one four digit natural number N.</p>
+    <h4>Output Format</h4>
+    <p> - Return the required result.</p>
+    <pre> → Ans  const First_Digit = (n) => {
+  
+        return Math.floor(n/1000);
+         
+      }; </pre>
+    <hr>
+
+
+    <h4><span class="Q">Q5.</span>Find the last digit of a 4 digit number</h4>
+    <p> -You are provided a four digit number N only. Your task is to print out the last digit of that number.</p>
+    <h4>Input Format</h4>
+    <p> - The first line contains one four digit natural number N.</p>
+    <h4>Output Format</h4>
+    <p> - Return the required result.</p>
+    <pre> → Ans const Last_Digit = (n) => {
+        return (n%10);
+     }; </pre>
+    <hr>
+
+
+    <h4><span class="Q">Q6.</span> Find the remainder</h4>
+    <p> - You are provided with two numbers A and B where A as divisor and B as dividend.Your task is 
+        find the remainder.</p>
+    <h4>Input Format</h4>
+    <p> -The first line of the input contains two integers A and B.</p>
+    <h4>Output Format</h4>
+    <p> - Return the result after finding the remainder.</p>
+    <pre> → Ans  const Find_the_remainder = (a,b) => {
+        return b%a;
+          
+      };
+       </pre>
+    <hr style="color: blue;">
+
+
+    <h4><span class="Q">Q7.</span> Multipy two Numbers</h4>
+    <p> - You are provided with two numbers A and B. Your task is to multiply these two numbers.</p>
+    <h4>Input Format</h4>
+    <p> - The first line contains two integers A and B.</p>
+    <h4>Output Format</h4>
+    <p> - Return the result after multiplying two numbers.</p>
+    <pre> → Ans  const Multiply_two_number = (a,b) => {
+        return a*b;
+    }; </pre>
+    <hr>
+
+    <h4><span class="Q">Q8.</span>Marks Calculator</h4>
+    <p> - Shyam has got his marks in three subjects as A,B,and C (out of 100).Write a program to calculate his 
+        total marks and his average.</p>
+    <h4>Input Format</h4>
+    <p> - The input contains three numbers A,B and C.</p>
+    <h4>Output Format</h4>
+    <p> - Return the required result.</p>
+    <pre> → Ans  const Sum = (A, B, C) => 
+        {
+         return(A+B+C);
+        };
+        
+        const Average = (A, B, C) => 
+        {
+          return((A+B+C)/3);
+         
+        };</pre>
+    <hr>
+</body>
+</html>
